@@ -4,7 +4,7 @@ or, at least, not set in stone. I called the namespace TapSuite, but that's more
 ## What is it, and how do I use it?
 This here is a Plugin for Warudo. It allows you to send the position of a camera to [OnAirTap](https://github.com/milkydelta/OnAirTap) or [VapourTap](https://github.com/milkydelta/VapourTap), so that your character can appear to be "in" the VR world through a spectator camera.
 
-To use it, drop all 5 .cs files from this repository into `Warudo_Data/StreamingAssets/Playground/`.
+To use it, drop all 4 .cs files from this repository into `Warudo_Data/StreamingAssets/Playground/`.
 
 Because this project uses `System.IO.MemoryMappedFiles` (and `System.IO.File` on Linux), it cannot be turned into a Plugin Mod, due to the security restictions imposed upon them. This is unfortunate, but entirely reasonable.
 
