@@ -3,6 +3,7 @@
 using System;
 using System.Runtime.InteropServices;
 
+// Comms classes are based primarily on the writing classes from Static-OAT, with some help from the main OAT reading classes.
 namespace TapSuite.Comms
 {
     [Flags]

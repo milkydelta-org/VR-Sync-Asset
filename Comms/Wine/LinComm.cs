@@ -3,6 +3,7 @@
 using System;
 using System.Runtime.InteropServices;
 
+// This isn't actually used anymore. feel free to delete.
 namespace TapSuite.Comms.Wine
 {
     public class LinComm : AbComms

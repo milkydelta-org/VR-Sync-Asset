@@ -17,6 +17,8 @@ namespace TapSuite
     [AssetType(Id = "8dbd9963-6341-4674-bbf2-6af11aa7c20c", Title = "VR Camera Sync", Category ="Cinematography")]
     public class TapSuiteAsset : Asset
     {
+        // I've made these Hidden because the path isn't yet configurable
+        // in OAT, so having these here will just increase risk of breakage.
         [DataInput]
         [Hidden]
         public string Path = "uk.lum.vrnyan.cameradata";
