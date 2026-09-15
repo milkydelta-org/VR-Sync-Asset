@@ -48,6 +48,7 @@ namespace TapSuite
         public bool ModLogEnabled = true;
 
         [DataInput]
+        [Hidden]
         public bool ModLogSpam = false;
 
         private AbComms com = AbComms.New();
